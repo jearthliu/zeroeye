@@ -5,8 +5,8 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/lobster-trap/TentOfTrials
-cd TentOfTrials
+git clone https://github.com/cuentaprueba244w-dotcom/zeroeye
+cd zeroeye
 ```
 
 Install the dependencies for the modules you plan to work on. See the [README](README.md#getting-started) for per-language dependency lists, or install everything at once:
