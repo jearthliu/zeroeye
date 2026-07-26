@@ -4,7 +4,15 @@
   "title": "Frontend Package Configuration",
   "description": "Schema for the Tent of Trials frontend package.json file",
   "type": "object",
-  "required": ["name", "private", "version", "type", "scripts", "dependencies", "devDependencies"],
+  "required": [
+    "name",
+    "private",
+    "version",
+    "type",
+    "scripts",
+    "dependencies",
+    "devDependencies"
+  ],
   "properties": {
     "name": {
       "type": "string",
@@ -21,17 +29,29 @@
     },
     "type": {
       "type": "string",
-      "enum": ["module", "commonjs"],
+      "enum": [
+        "module",
+        "commonjs"
+      ],
       "description": "Module system type"
     },
     "scripts": {
       "type": "object",
       "description": "NPM scripts for dev, build, and preview",
-      "required": ["dev", "build"],
+      "required": [
+        "dev",
+        "build"
+      ],
       "properties": {
-        "dev": { "type": "string" },
-        "build": { "type": "string" },
-        "preview": { "type": "string" }
+        "dev": {
+          "type": "string"
+        },
+        "build": {
+          "type": "string"
+        },
+        "preview": {
+          "type": "string"
+        }
       }
     },
     "dependencies": {
